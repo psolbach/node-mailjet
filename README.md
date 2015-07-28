@@ -1,6 +1,6 @@
 # mailjet-newsletter API
 This library permits to create and send newsletter campaigns using Mailjet's v3 API in Node.js. MIT licensed.
-Favors [Request](https://github.com/request/request) over standard http. Based on Mailjets binding stub.
+Favors [Request](https://github.com/request/request) over standard http. Based on Mailjet's binding stub.
 
 ## Installation
 Needs [Request](https://github.com/request/request), cf. package.json
