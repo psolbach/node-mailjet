@@ -8,7 +8,7 @@ Needs [Request](https://github.com/request/request), cf. package.json
 ## Actions
 Initialize like you would with the sendemail stub.
 ```javascript
-var Mailjet = require('mailjet-sendemail');
+var Mailjet = require('mailjet-newsletter');
 var mailjet = new Mailjet('apiKey', 'secretKey');
 ```
 
