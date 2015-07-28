@@ -3,7 +3,7 @@ This library permits to create and send newsletter campaigns using Mailjet's API
 Works with Node-Requests over standard http.
 
 ## Installation
-Needs Node-Request, cf. package.json
+Needs [Request](https://github.com/request/request), cf. package.json
 
 ## Actions
 Initialize like you would with the sendemail stub.
@@ -12,7 +12,7 @@ var Mailjet = require('mailjet-sendemail');
 var mailjet = new Mailjet('apiKey', 'secretKey');
 ```
 
-Then choose from a bunch endpoints and pass in the proper options object. e.g.:
+Then choose from a bunch of endpoints and pass in the proper options object. e.g.:
 ```javascript
 
 // Create
