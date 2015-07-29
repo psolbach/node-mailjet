@@ -27,7 +27,7 @@ var opts = {
   "Title": "Campaign"
 }
 
-mailjet.newsletter("create", opts, error, fillHTML);
+mailjet.newsletter("create", opts, error, callback);
 
 // Add Content
 var opts = {
@@ -36,9 +36,9 @@ var opts = {
   "id": 1234
 }
 
-mailjet.newsletter("detailcontent", opts, error, respond)
+mailjet.newsletter("detailcontent", opts, error, callback)
 
 // Send
 var opts = {"method": "POST", "id": 1234};
-mailjet.newsletter("send", opts, error, respond)
+mailjet.newsletter("send", opts, error, callback)
 ```
